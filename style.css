@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+html {
+    font-family: 'Philosopher', sans-serif;  
+    font-size: 100%;
+    color: #443222;
+}
+
+body {
+    
+}
+
+#top {
+    background-image: url("../GFTD.CAFE/img/main-bg.jpg");  
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;  
+}
+
+#logo img {
+    width: 15%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 1%;
+    float: left;
+}
+
+nav ul {
+    display: flex; 
+    margin-left: 60%;
+}
+ 
+nav ul li {
+    list-style-type: none; 
+    margin-top: 6%;
+    font-size: 120%;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+nav ul li a {
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+nav ul li a:visited {
+    color: #443222;
+}
+
+nav ul li a:hover {
+    color: #0bd;
+}
+
+
+#top h2 {
+    text-align: center;
+    font-size: 450%;
+    margin-top: 13%;
+    clear: left;
+}
+ 
+#top p {
+    text-align: center;
+    margin-top: 3%;
+}
+#top a button[type="button"] {
+    margin-left: 42%;  
+    margin-top: 2%;  
+    padding: 15px 40px;
+    font-size: 130%;
+    color: white;
+    background-color: #0bd;
+    border-radius: 5px;
+}
+
+/*    news.html    */
+#news {
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+
