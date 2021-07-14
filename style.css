@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*    index.html   */
+
 html {
     font-family: 'Philosopher', sans-serif;  
     font-size: 100%;
@@ -33,6 +35,7 @@ nav ul {
  
 nav ul li {
     list-style-type: none; 
+    text-decoration: none;
     margin-top: 6%;
     font-size: 120%;
     font-family: 'Kosugi Maru', sans-serif;
@@ -75,8 +78,20 @@ nav ul li a:hover {
 }
 
 /*    news.html    */
-#news {
-    font-family: 'Kosugi Maru', sans-serif;
+
+#news h1 {
+    clear: left;
+    
+}
+ 
+#fruits {
 }
 
+#news .flexbox {
+    display: flex;
+    clear: left;
+    justify-content: space-between;
+}
 
+#news {
+}
