@@ -79,19 +79,118 @@ nav ul li a:hover {
 
 /*    news.html    */
 
-#news h1 {
-    clear: left;
-    
-}
- 
 #fruits {
+   position: relative; 
 }
+
+#fruits h1 {
+   position: absolute; 
+   top: 50px;
+   left: 680px;
+   font-size: 400%;
+   }
+
+#fruits img {
+    width: 1600px;
+    height: 200px;
+    object-fit: none;
+    object-position: 50% 15%;
+}
+
+
 
 #news .flexbox {
     display: flex;
-    clear: left;
     justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 8%;
 }
 
+.date {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 4%;
+    padding: 15px;
+    width: 13%;
+    height: 9%;
+    color: white;
+    background-color: #0bd;
+    border-radius: 50%;
+    float: left;
+}
+
+#m_d {
+    font-size: 200%;
+    line-height: 1.5em;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+
+#y {
+    font-size: 120%;
+    line-height: 2.0em;
+    padding-top: 5px;
+}
+
+.main {
+}
+
+.main h3 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
+#category {
+    margin-left: 30%;
+    margin-top: 1%;
+    font-size: 1.0em;
+}
+.main img {
+    width: 800px;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.main p {
+    width: 800px;
+    font-size: 1.5em;
+    margin-left: 15%;
+    line-height: 1.5em;
+}
+
+.side {
+    width: 190px;
+    margin-right: 0%;
+}
+
+.side h3 {
+    border-bottom: 2px solid #0bd;
+    padding-bottom: 20px;
+}
+
+.side ul li {
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+    list-style-type: none;
+    margin: 15% 0%;
+}
+
+.side p {
+    line-height: 2em;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    width: 1600px;
+    color: white;
+    background-color: #443222;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 #news {
+   /* background-color: red; *k
 }
