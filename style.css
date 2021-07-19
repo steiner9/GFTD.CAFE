@@ -42,6 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
+    display: block;
     margin-left: 50px;
     text-decoration: none;
     font-family: 'Kosugi Maru', sans-serif;
@@ -184,13 +185,113 @@ nav ul li a:hover {
 
 footer {
     text-align: center;
-    width: 1600px;
+    width: 100%;
     color: white;
     background-color: #443222;
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#news {
-   /* background-color: red; *k
+
+
+/*   menu.html   */
+
+#menu header {
+    background: grey url("/GFTD.CAFE/img/menu-bg.jpg") no-repeat;
+    background-size: 100%; 
+    background-position:; 
+    background-size: ; 
+    width: 100%;
+    background-blend-mode: screen; 
 }
+
+#menu header h1 {
+    font-size: 6.5em;
+    text-align: center;
+    margin-top: 11%;
+}
+
+#menu header p {
+    font-size: 1.2em;
+    line-height: 1.7em;
+    margin-left: 34%;
+    margin-top: 2%;
+    padding-bottom: 14%;
+}
+
+#menu main {
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+}
+
+.box-big1 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 30%;
+}
+
+.box-big1 img {
+    width: 120%;
+    height: auto;
+}
+
+.item2 {
+    margin-bottom: 40%;
+}
+.item2 img {
+    width: 90%;
+}
+
+.item3 {
+    margin-bottom: 40%;
+}
+
+.item3 img {
+    width: 90%;
+}
+
+.item4 img {
+    width: 90%;
+    height: auto;
+}
+
+.item5 img {
+    width: 90%;
+    height: auto;
+}
+
+.item6 img {
+    width: 90%;
+    height: auto;
+}
+
+.item7 img {
+    width: 90%;
+    height: auto;
+}
+
+.item8 img {
+    width: 90%;
+    height: auto;
+}
+
+.item9 img {
+    width: 90%;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px 220px 220px 220px;
+}
+
+.box-big1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
