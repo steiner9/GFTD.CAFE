@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
   <head lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/ fb# website: http://ogp.me/ns/ website#"> 
       <meta property="og:url" content="/opt/lampp/htdocs/GFTD.CAFE/index.html" />
       <meta property="og:type" content="website" />
@@ -8,7 +9,7 @@
       <meta property="og:site_name" content="GFTD.CAFE" />
       <meta property="og:image" content=" ./img/logo.svg" />
       <meta charset="UTF-8">
-      <link rel="stylesheet" href="/styles/style3.css" >
+      <link rel="stylesheet" href="/styles/style.css" >
       <link rel="stylesheet" href="/styles/ress.css" >
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,22 +21,68 @@
       <meta name="description" content="GFTD.CAFEにようこそ。">
       <meta name="viewpoint" content"width=device-width, initiali-scale=1">
   </head>
-  <body id="top">
+  <body class="contact">
       <header>
           <a id="logo" href="index.html" alt="トップページ"><img src="./img/logo.svg"></a>
           <nav>
               <ul>
-                  <li><a href="news.html">NEWS</a></li>
-                  <li><a href="menu.html">MENU </a></li>
-                  <li><a href="contact.html">CONTACT</a></li>
+                  <li id="l1" ><a href="news.html">NEWS</a></li>
+                  <li id="l2"><a href="menu.html">MENU </a></li>
+                  <li id="l3"><a href="contact.html">CONTACT</a></li>
               </ul>
           </nav>
+          <h1>CONTACT</h1>
+          <form action="" method="post">
+              <dl>
+                  <dt>お名前</dt>
+                  <dd>
+                      <input type="text" name="your-name">
+                  </dd>
+                  <dt>メールアドレス</dt>
+                  <dd>
+                      <input type="text" name="email">
+                  </dd>
+                  <dt>メッセージ</dt>
+                  <dd>
+                      <textarea name="message" rows="4"></textarea>
+                  </dd>
+                  <dd>
+                      <button type="submit" name="send">送信</button>
+                  </dd>
+              </dl>
+          </form>
       </header>
       <main>
-        <h2>We'll Make Your Day</h2>
-        <p>ギフテッドなカフェで癒されてみませんか？発達障害に効く食材で脳の中からリフレッシュ。</p>
-        <a id="button" href="menu.html"><button type="button">メニューを見る</button></a>
+        <div class="map">
+            <ul>
+                <li><h2>GFTD.CAFE 早稲田店</h2></li>
+                <li>住所：東京都新宿区</li>
+                <li>喜久井町20 ニシカワビル</li>
+                <li>電話：050-3187-6831</li>
+                <li>営業時間：10:00 - 16:00</li>
+                <li>休日：土曜、日曜</li>
+            </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404.9918771323232!2d139.72219291853972!3d35.70321669862126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x842cd21bb89f41f8!2zR0lGVEVEIEFDQURFTVnjg7vjg57jgqTjg47jg6rjg4bjgqPjg4_jgqbjgrk!5e0!3m2!1sja!2sjp!4v1626675738624!5m2!1sja!2sjp" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="items">
+            <div class="facebook">
+                <h2>Facebook</h2>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2Fgftdjapan%2Fposts%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="twitter">
+                <h2>Twitter</h2>
+                <div id="timeline"><a class="twitter-timeline" href="https://twitter.com/gftd_works?ref_src=twsrc%5Etfw">Tweets by gftd_works</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <div class="youtube">
+                <h2>Youtube</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/S-HmZp4aOQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
       </main>
+      <footer>
+        &copy; 2019-2021 gftd
+      </footer>
   </body>
 </html>
 
